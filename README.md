@@ -66,7 +66,7 @@ Other options can refer to:
 emulator -help or emulator -qemu -help
 ```
 
-Usage of other branch may refer to:  [Branches and configurations](https://github.com/riscv-android-src/riscv-android/blob/main/doc/Branches_and_configurations.md)
+Usage of other branch may refer to:  [Branches and configurations](https://github.com/riscv-android-src/riscv-android/blob/main/doc/branches_and_configurations.md)
 
 If you want to rebuild the prebuild projects，please check：[Prebuilt projects](https://github.com/riscv-android-src/riscv-android/blob/main/doc/prebuilt_projects.md)
 
