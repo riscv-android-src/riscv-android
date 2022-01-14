@@ -33,3 +33,13 @@ cd common
 make ARCH=riscv defconfig
 make ARCH=riscv CROSS_COMPILE=riscv64-linux-android-
 ```
+
+# Emulator
+
+```
+repo init -u git@github.com:riscv-android-src/manifest.git -b emu-30-riscv64
+repo sync
+cd external/qemu/
+./android/rebuild.sh
+ls objs/distribution/
+```
