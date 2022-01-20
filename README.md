@@ -106,6 +106,9 @@ To contribute patches:
 8. Create a Github Pull Request targeting the the corresponding development branch. Associate the Pull Request with issue if it is an bug fix.
 
 ## Recent Updates
+2021/01/18		Upload the riscv64-android-12.0.0_dev branch to this repo
+
+2022/01/14		Add RISC-V support for Android emulator build
 
 2021/11/03		Add RISC-V support for Android rust toolchain
 
