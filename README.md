@@ -70,6 +70,8 @@ Usage of other branch may refer to:  [Branches and configurations](https://githu
 
 If you want to rebuild the prebuild projects，please check：[Prebuilt projects](https://github.com/riscv-android-src/riscv-android/blob/main/doc/prebuilt_projects.md)
 
+If you want to develop Android 12 on RISC-V，please check：[Android 12 RISC-V guide](https://github.com/riscv-android-src/riscv-android/blob/main/doc/android12.md)
+
 If you have encountered any problem with the environment setup，please check：[Common faults and treatment methods](https://github.com/riscv-android-src/riscv-android/blob/main/doc/common_faults_and_treatment_methods.md)
 
 ## Contribute
