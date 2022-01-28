@@ -11,6 +11,8 @@ git lfs pull
 cd -
 cd  prebuilts/clang/host/linux-x86/
 git lfs pull
+mkdir prebuilts/runtime/mainline/runtime/sdk/android/riscv64/include/bionic/libc/kernel/uapi/asm-riscv64
+rm external/angle/Android.bp
 touch packages/modules/ArtPrebuilt/com.android.art-riscv64.apex
 ```
 
