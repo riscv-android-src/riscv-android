@@ -9,9 +9,6 @@ repo sync
 cd prebuilts/rust/
 git lfs pull
 cd -
-cd  prebuilts/clang/host/linux-x86/
-git lfs pull
-cd -
 rm external/angle/Android.bp
 ```
 
