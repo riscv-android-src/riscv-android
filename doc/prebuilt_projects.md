@@ -10,10 +10,17 @@ repo sync
 # CLANG/LLVM
 
 ```
+# Android 10
 mkdir clang-toolchain && cd clang-toolchain
 repo init -u git@github.com:riscv-android-src/manifest.git -b riscv-llvm-toolchain-android-10_dev
 repo sync
 python toolchain/llvm_android/build.py 
+
+# Android 12
+mkdir clang-toolchain && cd clang-toolchain
+repo init -u git@github.com:riscv-android-src/manifest.git -b riscv-llvm-r416183_dev
+repo sync
+python toolchain/llvm_android/build.py --no-build lldb
 ```
 
 # RUST Toolchain
