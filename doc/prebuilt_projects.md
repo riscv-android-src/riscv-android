@@ -1,10 +1,26 @@
 # NDK
 
 ```
+# Android 10
 mkdir ndk-project && cd ndk-project
 repo init -u git@github.com:riscv-android-src/manifest.git -b ndk-r20-riscv64
 repo sync
 ./ndk/checkbuild.py
+
+# Android 12
+mkdir ndk-project && cd ndk-project
+repo init -u git@github.com:riscv-android-src/manifest.git -b riscv-ndk-release-r23
+repo sync
+./ndk/checkbuild.py
+## windows
+./ndk/checkbuild.py --system windows64
+
+## Pack output
+$cd out/linux
+$tar zcvf android-ndk-r23b.linux.tar.gz android-ndk-r23b
+$cd -
+$cd out/windows64
+$tar zcvf android-ndk-r23b.win64.tar.gz android-ndk-r23b
 ```
 
 # CLANG/LLVM
