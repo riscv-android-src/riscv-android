@@ -108,17 +108,12 @@ To contribute patches:
 8. Create a Github Pull Request targeting the the corresponding development branch. Associate the Pull Request with issue if it is an bug fix.
 
 ## Recent Updates
-2022/06/23		Update ART support for RISC-V: Including the compiler, dex2oat, disassembler, linker, runtime support
-
-               Add manifest for Clang & NDK generation
-               
-               Add basic CTS & VTS build support for RISC-V
-               
-               Update the prebuilt clang toolchain: Fix lto, thin-lto, tidy and cfi
-               
-               Update the multimedia support for RISC-V. Fix omx service build and sepolicy
-               
-               Fix goldfish_address_space pci support in emulator 
+2022/06/23		Update ART support for RISC-V: Including the compiler, dex2oat, disassembler, linker, runtime support  
+&emsp;&emsp;&emsp;&emsp;&emsp;Add manifest for Clang & NDK generation  
+&emsp;&emsp;&emsp;&emsp;&emsp;Add basic CTS & VTS build support for RISC-V  
+&emsp;&emsp;&emsp;&emsp;&emsp;Update the prebuilt clang toolchain: Fix lto, thin-lto, tidy and cfi  
+&emsp;&emsp;&emsp;&emsp;&emsp;Update the multimedia support for RISC-V. Fix omx service build and sepolicy  
+&emsp;&emsp;&emsp;&emsp;&emsp;Fix goldfish_address_space pci support in emulator 
 
 2022/01/18		Upload the riscv64-android-12.0.0_dev branch to this repo
 
