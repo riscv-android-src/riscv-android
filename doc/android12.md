@@ -12,23 +12,6 @@ cd -
 rm external/angle/Android.bp
 ```
 
-Before build, manually update `~/riscv-android-src/device/generic/goldfish/fstab.ranchu.riscv.ex` as below diff shows:
-
-```
-diff --git a/fstab.ranchu.riscv.ex b/fstab.ranchu.riscv.ex
-index 69c180e9..dff1896a 100644
---- a/fstab.ranchu.riscv.ex
-+++ b/fstab.ranchu.riscv.ex
-@@ -6,6 +6,6 @@ system   /system     ext4    ro,barrier=1     wait,logical,first_stage_mount
- vendor   /vendor     ext4    ro,barrier=1     wait,logical,first_stage_mount
- product  /product    ext4    ro,barrier=1     wait,logical,first_stage_mount
- system_ext  /system_ext  ext4   ro,barrier=1   wait,logical,first_stage_mount
--/dev/block/vdc   /data     ext4      noatime,nosuid,nodev,nomblk_io_submit,errors=panic   wait,check,quota,fileencryption=aes-256-xts:aes-256-cts,reservedsize=128M,fsverity,keydirectory=/metadata/vold/metadata_encryption,latemount
-+/dev/block/vdc  /data    ext4      noatime,nosuid,nodev,nomblk_io_submit,errors=panic   wait,check,quota,latemount
- /dev/block/platform/20000c00.virtio_mmio/by-name/metadata    /metadata    ext4    noatime,nosuid,nodev    wait,formattable,first_stage_mount
- /devices/*/block/vdf  auto  auto      defaults voldmanaged=sdcard:auto,encryptable=userdata
-```
-
 Build full emulator image with command:
 
 ```
