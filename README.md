@@ -72,6 +72,8 @@ If you want to rebuild the prebuild projects，please check：[Prebuilt projects
 
 If you want to develop Android 12 on RISC-V，please check：[Android 12 RISC-V guide](https://github.com/riscv-android-src/riscv-android/blob/main/doc/android12.md)
 
+If you want to run the compatibility test suit, please check：[CTS build guide](https://github.com/riscv-android-src/riscv-android/blob/main/doc/CTS_compile.md)
+
 If you have encountered any problem with the environment setup，please check：[Common faults and treatment methods](https://github.com/riscv-android-src/riscv-android/blob/main/doc/common_faults_and_treatment_methods.md)
 
 ## Contribute
