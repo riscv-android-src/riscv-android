@@ -30,7 +30,7 @@ $tar zcvf android-ndk-r23b.win64.tar.gz android-ndk-r23b
 mkdir clang-toolchain && cd clang-toolchain
 repo init -u git@github.com:riscv-android-src/manifest.git -b riscv-llvm-toolchain-android-10_dev
 repo sync
-python toolchain/llvm_android/build.py 
+python toolchain/llvm_android/build.py
 
 # Android 12
 mkdir clang-toolchain && cd clang-toolchain
