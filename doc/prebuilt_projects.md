@@ -60,7 +60,7 @@ make ARCH=riscv CROSS_COMPILE=riscv64-linux-android-
 # Emulator
 
 ```
-repo init -u git@github.com:riscv-android-src/manifest.git -b emu-30-riscv64
+repo init -u git@github.com:riscv-android-src/manifest.git -b emu-31.2.1.0-riscv64
 repo sync
 cd external/qemu/
 ./android/rebuild.sh
