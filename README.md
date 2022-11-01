@@ -74,6 +74,8 @@ If you want to develop Android 12 on RISC-V，please check：[Android 12 RISC-V 
 
 If you want to run the compatibility test suit, please check：[CTS build guide](https://github.com/riscv-android-src/riscv-android/blob/main/doc/CTS_compile.md)
 
+If you want to build applicaion for RISC-V, please check：[App build guide](https://github.com/riscv-android-src/riscv-android/blob/main/doc/app.md)
+
 If you have encountered any problem with the environment setup，please check：[Common faults and treatment methods](https://github.com/riscv-android-src/riscv-android/blob/main/doc/common_faults_and_treatment_methods.md)
 
 ## Contribute
