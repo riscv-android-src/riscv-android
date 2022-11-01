@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-3. Download gradle plugin from or build plugin with steps from section 1
+3. Download gradle plugin from [here](https://github.com/riscv-android-src/riscv-android/blob/main/resources/repo.tar) or build plugin with steps from section 1
    - Extract tarball to an directory
    - Add gradle path to build.gradle
 ```
