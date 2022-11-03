@@ -75,7 +75,14 @@ m -j
 
 Run the RISC-V 64 AVD system image in the Android Emulator:
 
+For non-graphical interface:
 ```bash
 emulator -no-qt -show-kernel -noaudio -selinux permissive -qemu -smp 1 -m 3584M -bios kernel/prebuilts/5.10/riscv64/fw_jump.bin
 ```
+
+For graphical interface:
+```bash
+emulator -verbose -no-boot-anim -show-kernel -noaudio -selinux permissive -qemu -smp 1 -m 3584M -bios kernel/prebuilts/5.10/riscv64/fw_jump.bin
+```
+Notice: Ubuntu 18.04 and 20.04 should work, but 22.04 may crash.
 
