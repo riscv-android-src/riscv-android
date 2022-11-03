@@ -51,11 +51,23 @@ repo sync
 # Linux kernel
 
 ```
-git clone https://android.googlesource.com/kernel/common -b android12-5.10-lts
-cd common
-make ARCH=riscv defconfig
-make ARCH=riscv CROSS_COMPILE=riscv64-linux-android-
+mkdir andorid-kernel
+cd andorid-kernel
+repo init -u git@github.com:riscv-android-src/kernel-manifest.git -b riscv64-android12-5.10
+repo sync
 ```
+
+Currently, we have not supported building with clang, so please install riscv gcc on your building machine and add path of toolchain to env var PATH before continue.
+Besides, you may have to update `andorid-kernel/common/build.config.riscv64` to set "CROSS_COMPILE" to your own triplet string. 
+
+Then you can continue with:
+```
+BUILD_CONFIG=common/build.config.gki.riscv64 ./build/build.sh -j $(nproc)
+BUILD_CONFIG=common-modules/virtual-device/build.config.virtual_device.riscv64 build/build.sh -j $(nproc)
+```
+
+Now you can find kernel image(Image) and kernel modules(.ko) in `andorid-kernel-new/out/android12-5.10/dist`.
+
 
 # Emulator
 
