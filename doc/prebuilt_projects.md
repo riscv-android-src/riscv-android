@@ -66,7 +66,7 @@ BUILD_CONFIG=common/build.config.gki.riscv64 ./build/build.sh -j $(nproc)
 BUILD_CONFIG=common-modules/virtual-device/build.config.virtual_device.riscv64 build/build.sh -j $(nproc)
 ```
 
-Now you can find kernel image(Image) and kernel modules(.ko) in `andorid-kernel-new/out/android12-5.10/dist`.
+Now you can find kernel image(Image) and kernel modules(.ko) in `andorid-kernel/out/android12-5.10/dist`.
 
 
 # Emulator
