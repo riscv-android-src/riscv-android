@@ -11,7 +11,7 @@ Before downloading RISC-V Android source code please check you work environment,
 To download the RISC-V Android source tree to your working directory:
 
 ```bash
-mkdir ~/riscv-android-src && cd mkdir ~/riscv-android-src
+mkdir ~/riscv-android-src && cd ~/riscv-android-src
 repo init -u git@github.com:riscv-android-src/manifest.git -b riscv64-android-10.0.0_dev
 repo sync
 ```
