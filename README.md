@@ -113,6 +113,18 @@ To contribute patches:
 
 ## Recent Updates
 
+2022/11/04
+
+- Support build GKI kernel/ko for andorid emulator
+
+  - kernel-manifest: diff b25f5e46 c6e2caa9
+  - kernel-common: diff 452781c1 b441c0ba
+  - kernel-common-modules-virtual-device: diff aaae95d2 049223f1
+  - kernel-prebuilts-5.10-riscv64: diff 55075b59 d8ff2937
+  - kernel-prebuilts-common-modules-virtual-device-5.10-riscv64: new created, f0e2dfd4
+  - manifest: diff 382ae35f b9486427
+  - riscv-android: diff e8ba76eb 3fb76b1b
+
 2022/10/01
 
 - Updated platform/manifest: diff e07293e3 382ae35f
