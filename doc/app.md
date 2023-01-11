@@ -152,7 +152,7 @@ plugins {
 ```
 # Download
 mkdir ~/riscv-ndk-12-src && cd ~/riscv-ndk-12-src
-repo init -u http://aligerrit.alibaba-inc.com/a/thead-aosp/platform/manifest -b riscv-ndk-release-r23
+repo init -u git@github.com:riscv-android-src/manifest.git -b riscv-ndk-release-r23
 repo sync
 
 # build
