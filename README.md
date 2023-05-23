@@ -2,7 +2,7 @@
 
 This is the RISC-V Android collaborative source code repo. It contains all the modified AOSP(Android open source project) repositories with RISC-V support, while other non-architecture related repositories can be directly downloaded from the official AOSP repo.
 
-The main purpose of this repo is to provide a codebase for the developers, continuously improve the RISC-V architecture support with the collaboration of community and upstream these support to the official AOSP repo.
+Currently, the Android support for RISC-V has been merged upstream, and this repository is only used for archiving. If you need to obtain the new version AOSP on RISC-V support, please visit https://github.com/google/android-riscv64.
 
 ## Getting started
 
